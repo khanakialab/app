@@ -1,0 +1,26 @@
+{
+  "name": "@kneskfm/app",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Lucian Khanakia <lucian@knesk.com>",
+  "license": "MIT",
+  "description": "A Knesk Framework to build node.js apps",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kneskfm/app.git"
+  },
+  "dependencies": {
+    "@kneskjs/hook": "https://github.com/kneskjs/hook.git",
+    "@kneskjs/option": "https://github.com/kneskjs/option.git",
+    "@kneskjs/util": "https://github.com/kneskjs/util.git",
+    "mongodb": "^3.1.4"
+  },
+  "bugs": {
+    "url": "https://github.com/kneskfm/app/issues"
+  },
+  "homepage": "https://github.com/kneskfm/app#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
