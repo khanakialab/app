@@ -52,8 +52,10 @@ App.prototype.initPlugins = async function() {
 			const pluginC = this.plugins[plugin.name]
 			if(pluginC==undefined) continue
 			
-			if(typeof(pluginC.init)=='function') {
+			if(plugin.init!==false && typeof(pluginC.init)=='function') {
 				await pluginC.init()
+			} else {
+				console.warn(`Skipped init function for plugin ${plugin.name}`)
 			}
 		} catch (error) {
 			console.log(error)
