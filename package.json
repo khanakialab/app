@@ -12,8 +12,7 @@
   "dependencies": {
     "@kneskjs/hook": "https://github.com/kneskjs/hook.git",
     "@kneskjs/option": "https://github.com/kneskjs/option.git",
-    "@kneskjs/util": "https://github.com/kneskjs/util.git",
-    "mongodb": "^3.1.4"
+    "@kneskjs/util": "https://github.com/kneskjs/util.git"
   },
   "bugs": {
     "url": "https://github.com/kneskfm/app/issues"
