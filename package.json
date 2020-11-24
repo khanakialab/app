@@ -10,9 +10,9 @@
     "url": "https://github.com/kneskfm/app.git"
   },
   "dependencies": {
-    "@kneskjs/hook": "https://github.com/kneskjs/hook.git",
-    "@kneskjs/option": "https://github.com/kneskjs/option.git",
-    "@kneskjs/util": "https://github.com/kneskjs/util.git"
+    "@kneskjs/hook": "https://github.com/khanakiajs/hook.git",
+    "@kneskjs/option": "https://github.com/khanakiajs/option.git",
+    "@kneskjs/util": "https://github.com/khanakiajs/util.git"
   },
   "bugs": {
     "url": "https://github.com/kneskfm/app/issues"
